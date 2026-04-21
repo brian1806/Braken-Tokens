@@ -32,11 +32,12 @@ Serviço de Auditoria: O serviço "Log de Eventos do Windows" deve estar em exec
 O script utiliza o GUID universal ```{0ccee921-0529-11d8-bd0a-00c04f0e0370}``` para ativar a auditoria de Sistema de Arquivos via auditpol. Isso garante compatibilidade com sistemas operacionais em qualquer idioma
 
 # ⚙️ Configuração e Uso
-Execução:
+**Execução:**
 Abra o PowerShell como administrador e execute o script:
 
 PowerShell
 .\BrakenTokens.ps1
+
 **Cadastro:**
 Insira o caminho da pasta e o nome do arquivo (ex: C:\Financeiro e senhas_banco.txt).
 
@@ -45,9 +46,9 @@ Para visualizar os alertas, abra o Visualizador de Eventos (Event Viewer):
 
 Vá em Logs do Windows -> Segurança.
 
-Filtre pelo Event ID 4663.
+Filtre pelo Event ID **4663**.
 
-No campo "Nome do Objeto", você verá o caminho do seu Braken Token acionado.
+No campo *"Nome do Objeto"*, você verá o caminho do seu Braken Token acionado.
 
 # ⚠️ Aviso Legal
 Este script foi desenvolvido para fins educacionais e de defesa cibernética. O autor não se responsabiliza pelo uso indevido da ferramenta. Sempre teste em ambiente controlado antes de aplicar em produção.
