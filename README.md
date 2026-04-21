@@ -1,5 +1,5 @@
 ### Braken Tokens 🛡️🦆
-Braken Tokens é uma ferramenta de Deception (Engano) desenvolvida em PowerShell para criar arquivos "isca" (Canary Tokens) em sistemas Windows. O script automatiza a criação de múltiplos arquivos e configura as regras de auditoria do sistema para que qualquer interação com esses arquivos gere eventos rastreáveis.
+Braken Tokens é uma ferramenta de Deception desenvolvida em PowerShell para criar arquivos "isca" (Canary Tokens) em sistemas **Windows**. O script automatiza a criação de múltiplos arquivos e configura as regras de auditoria do sistema para que qualquer interação com esses arquivos gere eventos rastreáveis.
 
 # 🚀 Como funciona?
 O script utiliza a infraestrutura de auditoria nativa do Windows para monitorar o acesso a arquivos específicos. Quando um "adversário" (ou usuário curioso) abre, edita ou deleta o arquivo, o Windows gera um Event ID 4663.
