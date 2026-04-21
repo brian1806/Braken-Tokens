@@ -24,6 +24,12 @@ Feedback Visual: Barra de progresso e status de implantação por arquivo.
 
 # 📋 Pré-requisitos
 Para que o script funcione corretamente, ele deve ser executado como Administrador, pois altera políticas de auditoria do sistema (auditpol).
+Habilitar a execução de Script na máquina.
+Serviço de Auditoria: O serviço "Log de Eventos do Windows" deve estar em execução
+
+# 🖥️ Nota Técnica: 
+
+O script utiliza o GUID universal ```{0ccee921-0529-11d8-bd0a-00c04f0e0370}``` para ativar a auditoria de Sistema de Arquivos via auditpol. Isso garante compatibilidade com sistemas operacionais em qualquer idioma
 
 # ⚙️ Configuração e Uso
 Execução:
